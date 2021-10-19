@@ -9,7 +9,18 @@ import SwiftUI
 
 struct PushingViews: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView {
+            VStack {
+                List(0..<100) { row in
+                    NavigationLink(destination: Text("Detail \(row)")) {
+                        Text("Row \(row)")
+                            .font(.title2)
+                    }
+                }
+            }
+            .navigationTitle("Swift UI")
+        }
     }
 }
 
