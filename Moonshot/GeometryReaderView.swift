@@ -10,10 +10,12 @@ import SwiftUI
 struct GeometryReaderView: View {
     var body: some View {
         VStack {
-            Image("Lion")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 300, height: 300)
+            GeometryReader { geo in
+                Image("Lion")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: geo.size.width)
+            }
         }
     }
 }
