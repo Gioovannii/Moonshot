@@ -12,6 +12,7 @@
 		7BA0BFE3271E632C003C079C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA0BFE2271E632C003C079C /* Assets.xcassets */; };
 		7BA0BFE6271E632C003C079C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA0BFE5271E632C003C079C /* Preview Assets.xcassets */; };
 		7BA0BFED271E6423003C079C /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFEC271E6423003C079C /* GeometryReaderView.swift */; };
+		7BA0BFEF271E66C8003C079C /* ScrollViewLecon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFEE271E66C8003C079C /* ScrollViewLecon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7BA0BFE2271E632C003C079C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA0BFE5271E632C003C079C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BA0BFEC271E6423003C079C /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		7BA0BFEE271E66C8003C079C /* ScrollViewLecon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLecon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7BA0BFDE271E632B003C079C /* MoonshotApp.swift */,
 				7BA0BFE0271E632B003C079C /* ContentView.swift */,
 				7BA0BFEC271E6423003C079C /* GeometryReaderView.swift */,
+				7BA0BFEE271E66C8003C079C /* ScrollViewLecon.swift */,
 				7BA0BFE2271E632C003C079C /* Assets.xcassets */,
 				7BA0BFE4271E632C003C079C /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA0BFE1271E632B003C079C /* ContentView.swift in Sources */,
+				7BA0BFEF271E66C8003C079C /* ScrollViewLecon.swift in Sources */,
 				7BA0BFDF271E632B003C079C /* MoonshotApp.swift in Sources */,
 				7BA0BFED271E6423003C079C /* GeometryReaderView.swift in Sources */,
 			);
