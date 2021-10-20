@@ -62,12 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				7BA0BFDE271E632B003C079C /* MoonshotApp.swift */,
+				7BE004E9271FC11400591FEE /* Lecons */,
 				7BA0BFE0271E632B003C079C /* ContentView.swift */,
-				7BA0BFEC271E6423003C079C /* GeometryReaderView.swift */,
-				7BA0BFEE271E66C8003C079C /* ScrollViewLecon.swift */,
-				7BA0BFF0271E69DC003C079C /* PushingViews.swift */,
-				7BA0BFF2271E6F11003C079C /* HierarchieJasonView.swift */,
-				7BA0BFF4271E6FFA003C079C /* JsonCodable.swift */,
 				7BA0BFE2271E632C003C079C /* Assets.xcassets */,
 				7BA0BFE4271E632C003C079C /* Preview Content */,
 			);
@@ -80,6 +76,18 @@
 				7BA0BFE5271E632C003C079C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BE004E9271FC11400591FEE /* Lecons */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0BFEC271E6423003C079C /* GeometryReaderView.swift */,
+				7BA0BFEE271E66C8003C079C /* ScrollViewLecon.swift */,
+				7BA0BFF0271E69DC003C079C /* PushingViews.swift */,
+				7BA0BFF2271E6F11003C079C /* HierarchieJasonView.swift */,
+				7BA0BFF4271E6FFA003C079C /* JsonCodable.swift */,
+			);
+			path = Lecons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
