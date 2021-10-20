@@ -20,6 +20,7 @@
 		7BE004ED271FC16B00591FEE /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BE004EB271FC16B00591FEE /* astronauts.json */; };
 		7BE004F3271FF76500591FEE /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE004F2271FF76500591FEE /* Astronaut.swift */; };
 		7BE004F5271FF77600591FEE /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */; };
+		7BE004F7271FF9DF00591FEE /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE004F6271FF9DF00591FEE /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7BE004EB271FC16B00591FEE /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		7BE004F2271FF76500591FEE /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		7BE004F6271FF9DF00591FEE /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				7BE004EB271FC16B00591FEE /* astronauts.json */,
 				7BE004EA271FC16B00591FEE /* missions.json */,
 				7BE004F2271FF76500591FEE /* Astronaut.swift */,
+				7BE004F6271FF9DF00591FEE /* Mission.swift */,
 				7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */,
 				7BA0BFE2271E632C003C079C /* Assets.xcassets */,
 				7BA0BFE4271E632C003C079C /* Preview Content */,
@@ -182,6 +185,7 @@
 				7BE004F5271FF77600591FEE /* Bundle-Decodable.swift in Sources */,
 				7BA0BFF1271E69DC003C079C /* PushingViews.swift in Sources */,
 				7BA0BFDF271E632B003C079C /* MoonshotApp.swift in Sources */,
+				7BE004F7271FF9DF00591FEE /* Mission.swift in Sources */,
 				7BA0BFED271E6423003C079C /* GeometryReaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
