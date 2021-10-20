@@ -18,6 +18,8 @@
 		7BA0BFF5271E6FFA003C079C /* JsonCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFF4271E6FFA003C079C /* JsonCodable.swift */; };
 		7BE004EC271FC16B00591FEE /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BE004EA271FC16B00591FEE /* missions.json */; };
 		7BE004ED271FC16B00591FEE /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BE004EB271FC16B00591FEE /* astronauts.json */; };
+		7BE004F3271FF76500591FEE /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE004F2271FF76500591FEE /* Astronaut.swift */; };
+		7BE004F5271FF77600591FEE /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		7BA0BFF4271E6FFA003C079C /* JsonCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonCodable.swift; sourceTree = "<group>"; };
 		7BE004EA271FC16B00591FEE /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		7BE004EB271FC16B00591FEE /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		7BE004F2271FF76500591FEE /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				7BA0BFE0271E632B003C079C /* ContentView.swift */,
 				7BE004EB271FC16B00591FEE /* astronauts.json */,
 				7BE004EA271FC16B00591FEE /* missions.json */,
+				7BE004F2271FF76500591FEE /* Astronaut.swift */,
+				7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */,
 				7BA0BFE2271E632C003C079C /* Assets.xcassets */,
 				7BA0BFE4271E632C003C079C /* Preview Content */,
 			);
@@ -171,7 +177,9 @@
 				7BA0BFF3271E6F11003C079C /* HierarchieJasonView.swift in Sources */,
 				7BA0BFF5271E6FFA003C079C /* JsonCodable.swift in Sources */,
 				7BA0BFE1271E632B003C079C /* ContentView.swift in Sources */,
+				7BE004F3271FF76500591FEE /* Astronaut.swift in Sources */,
 				7BA0BFEF271E66C8003C079C /* ScrollViewLecon.swift in Sources */,
+				7BE004F5271FF77600591FEE /* Bundle-Decodable.swift in Sources */,
 				7BA0BFF1271E69DC003C079C /* PushingViews.swift in Sources */,
 				7BA0BFDF271E632B003C079C /* MoonshotApp.swift in Sources */,
 				7BA0BFED271E6423003C079C /* GeometryReaderView.swift in Sources */,
