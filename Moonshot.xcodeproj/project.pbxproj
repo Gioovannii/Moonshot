@@ -16,6 +16,8 @@
 		7BA0BFF1271E69DC003C079C /* PushingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFF0271E69DC003C079C /* PushingViews.swift */; };
 		7BA0BFF3271E6F11003C079C /* HierarchieJasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFF2271E6F11003C079C /* HierarchieJasonView.swift */; };
 		7BA0BFF5271E6FFA003C079C /* JsonCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFF4271E6FFA003C079C /* JsonCodable.swift */; };
+		7BE004EC271FC16B00591FEE /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BE004EA271FC16B00591FEE /* missions.json */; };
+		7BE004ED271FC16B00591FEE /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BE004EB271FC16B00591FEE /* astronauts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		7BA0BFF0271E69DC003C079C /* PushingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingViews.swift; sourceTree = "<group>"; };
 		7BA0BFF2271E6F11003C079C /* HierarchieJasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchieJasonView.swift; sourceTree = "<group>"; };
 		7BA0BFF4271E6FFA003C079C /* JsonCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonCodable.swift; sourceTree = "<group>"; };
+		7BE004EA271FC16B00591FEE /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		7BE004EB271FC16B00591FEE /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				7BA0BFDE271E632B003C079C /* MoonshotApp.swift */,
 				7BE004E9271FC11400591FEE /* Lecons */,
 				7BA0BFE0271E632B003C079C /* ContentView.swift */,
+				7BE004EB271FC16B00591FEE /* astronauts.json */,
+				7BE004EA271FC16B00591FEE /* missions.json */,
 				7BA0BFE2271E632C003C079C /* Assets.xcassets */,
 				7BA0BFE4271E632C003C079C /* Preview Content */,
 			);
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA0BFE6271E632C003C079C /* Preview Assets.xcassets in Resources */,
+				7BE004EC271FC16B00591FEE /* missions.json in Resources */,
 				7BA0BFE3271E632C003C079C /* Assets.xcassets in Resources */,
+				7BE004ED271FC16B00591FEE /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
