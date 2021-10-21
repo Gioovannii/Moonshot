@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3029D82720F66D00892CC2 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3029D72720F66D00892CC2 /* MissionView.swift */; };
 		7BA0BFDF271E632B003C079C /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFDE271E632B003C079C /* MoonshotApp.swift */; };
 		7BA0BFE1271E632B003C079C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0BFE0271E632B003C079C /* ContentView.swift */; };
 		7BA0BFE3271E632C003C079C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA0BFE2271E632C003C079C /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B3029D72720F66D00892CC2 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		7BA0BFDB271E632B003C079C /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA0BFDE271E632B003C079C /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		7BA0BFE0271E632B003C079C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				7BA0BFDE271E632B003C079C /* MoonshotApp.swift */,
 				7BE004E9271FC11400591FEE /* Lecons */,
 				7BA0BFE0271E632B003C079C /* ContentView.swift */,
+				7B3029D72720F66D00892CC2 /* MissionView.swift */,
 				7BE004F6271FF9DF00591FEE /* Mission.swift */,
 				7BE004F2271FF76500591FEE /* Astronaut.swift */,
 				7BE004F4271FF77600591FEE /* Bundle-Decodable.swift */,
@@ -184,6 +187,7 @@
 				7BA0BFEF271E66C8003C079C /* ScrollViewLecon.swift in Sources */,
 				7BE004F5271FF77600591FEE /* Bundle-Decodable.swift in Sources */,
 				7BA0BFF1271E69DC003C079C /* PushingViews.swift in Sources */,
+				7B3029D82720F66D00892CC2 /* MissionView.swift in Sources */,
 				7BA0BFDF271E632B003C079C /* MoonshotApp.swift in Sources */,
 				7BE004F7271FF9DF00591FEE /* Mission.swift in Sources */,
 				7BA0BFED271E6423003C079C /* GeometryReaderView.swift in Sources */,
