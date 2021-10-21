@@ -22,6 +22,7 @@ struct MissionView: View {
             ScrollView(.vertical) {
                 VStack {
                     Image(self.mission.image)
+//                    Image("Lion")
                         .resizable()
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width * 0.7)
@@ -35,8 +36,23 @@ struct MissionView: View {
                             Image(crewMember.astronaut.id)
                                 .resizable()
                                 .frame(width: 83, height: 60)
+                                .clipShape(Capsule())
+                            
+                                .overlay(Capsule)
+                                .stroke(Color.primary, lineWidth: 1)
+                            
+                            VStack(alignment: .leading) {
+                                
+                                Text(crewMember.astronaut.name)
+                                    .font(.headline)
+                                
+                                Text(crewMember.role)
+                                    .foregroundColor(.secondary)
+                            }
+                            
+                            Spacer()
                         }
-                        
+                        .padding(.horizontal)
                     }
                     
                     Spacer(minLength: 25)
