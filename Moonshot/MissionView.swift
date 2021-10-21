@@ -38,8 +38,8 @@ struct MissionView: View {
                                 .frame(width: 83, height: 60)
                                 .clipShape(Capsule())
                             
-                                .overlay(Capsule)
-                                .stroke(Color.primary, lineWidth: 1)
+                                .overlay(Capsule()
+                                .stroke(Color.primary, lineWidth: 1))
                             
                             VStack(alignment: .leading) {
                                 
