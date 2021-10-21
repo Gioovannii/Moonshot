@@ -22,7 +22,6 @@ struct MissionView: View {
             ScrollView(.vertical) {
                 VStack {
                     Image(self.mission.image)
-//                    Image("Lion")
                         .resizable()
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width * 0.7)
@@ -32,27 +31,30 @@ struct MissionView: View {
                         .padding()
                     
                     ForEach(self.astronauts, id: \.role) { crewMember in
-                        HStack {
-                            Image(crewMember.astronaut.id)
-                                .resizable()
-                                .frame(width: 83, height: 60)
-                                .clipShape(Capsule())
-                            
-                                .overlay(Capsule()
-                                .stroke(Color.primary, lineWidth: 1))
-                            
-                            VStack(alignment: .leading) {
+                        NavigationLink(destination: AstronautView(astronaut: crewMember.astronaut)) {
+                            HStack {
+                                Image(crewMember.astronaut.id)
+                                    .resizable()
+                                    .frame(width: 83, height: 60)
+                                    .clipShape(Capsule())
                                 
-                                Text(crewMember.astronaut.name)
-                                    .font(.headline)
+                                    .overlay(Capsule()
+                                                .stroke(Color.primary, lineWidth: 1))
                                 
-                                Text(crewMember.role)
-                                    .foregroundColor(.secondary)
+                                VStack(alignment: .leading) {
+                                    
+                                    Text(crewMember.astronaut.name)
+                                        .font(.headline)
+                                    
+                                    Text(crewMember.role)
+                                        .foregroundColor(.secondary)
+                                }
+                                
+                                Spacer()
                             }
-                            
-                            Spacer()
+                            .padding(.horizontal)
                         }
-                        .padding(.horizontal)
+                        .buttonStyle(PlainButtonStyle())
                     }
                     
                     Spacer(minLength: 25)
@@ -78,7 +80,7 @@ struct MissionView: View {
         
         self.astronauts = matches
         
-   
+        
     }
 }
 
