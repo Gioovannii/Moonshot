@@ -24,6 +24,16 @@ struct AstronautView: View {
                     
                     Text(self.astronaut.description)
                         .padding()
+                    
+                    HStack {
+                    Text("Missions : ")
+                        
+                        ForEach(self.missions) { mission in
+                            HStack {
+                            Text(mission.displayName)
+                            }
+                        }
+                    }
                 }
             }
         }
