@@ -64,6 +64,6 @@ struct AstronautView_Previews: PreviewProvider {
     static let missions: [Mission] = Bundle.main.decode("missions.json")
 
     static var previews: some View {
-        AstronautView(astronaut: astronauts[0])
+        AstronautView(astronaut: astronauts[12], mission: missions)
     }
 }
