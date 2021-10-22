@@ -40,6 +40,23 @@ struct AstronautView: View {
         .navigationTitle(Text(astronaut.name))
         .navigationBarTitleDisplayMode(.inline)
     }
+    
+    init(astronaut: Astronaut, mission: [Mission] ) {
+        self.astronaut = astronaut
+        
+        var matches = [Mission]()
+        let allMissions: [Mission] = Bundle.main.decode("missions.json")
+        
+        
+        for mission in allMissions {
+            if let _ = mission.crew.first(where: { $0.name == astronaut.id }) {
+                matches.append(mission)
+            }
+        }
+        
+        self.missions = matches
+    }
+    
 }
 
 struct AstronautView_Previews: PreviewProvider {
