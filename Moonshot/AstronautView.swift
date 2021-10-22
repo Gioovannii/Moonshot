@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AstronautView: View {
     let astronaut: Astronaut
+    let missions: [Mission]
+    
     var body: some View {
         
         GeometryReader { geometry in
