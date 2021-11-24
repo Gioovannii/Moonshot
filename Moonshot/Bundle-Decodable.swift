@@ -29,3 +29,11 @@ extension Bundle {
         return loaded
     }
 }
+
+
+extension FileManager {
+    func getDocumentDirectory() -> URL {
+        let paths = self.urls(for: .documentDirectory, in: .userDomainMask)
+        return paths[0]
+    }
+}
