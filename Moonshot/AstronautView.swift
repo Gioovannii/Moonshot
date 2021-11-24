@@ -26,11 +26,13 @@ struct AstronautView: View {
                         .padding()
                     
                     HStack {
-                    Text("Missions : ")
+                    Text("Flew on  : ")
+                            .font(.callout)
+                            .fontWeight(.bold)
                         
                         ForEach(self.missions) { mission in
                             HStack {
-                            Text(mission.displayName)
+                                Text("| \(mission.displayName) ")
                             }
                         }
                     }
@@ -64,6 +66,6 @@ struct AstronautView_Previews: PreviewProvider {
     static let missions: [Mission] = Bundle.main.decode("missions.json")
 
     static var previews: some View {
-        AstronautView(astronaut: astronauts[12], mission: missions)
+        AstronautView(astronaut: astronauts[10], mission: missions)
     }
 }
