@@ -17,12 +17,12 @@ struct AstronautView: View {
             ScrollView(.vertical) {
                 VStack {
                     
-                    Image(self.astronaut.id)
+                    Image(astronaut.id)
                     .resizable()
                     .scaledToFit()
                     .frame(width: geometry.size.width)
                     
-                    Text(self.astronaut.description)
+                    Text(astronaut.description)
                         .padding()
                     
                     HStack {
@@ -39,6 +39,7 @@ struct AstronautView: View {
                 }
             }
         }
+        .background(.darkBackground)
         .navigationTitle(Text(astronaut.name))
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -62,10 +63,10 @@ struct AstronautView: View {
 }
 
 struct AstronautView_Previews: PreviewProvider {
-    static let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
+    static let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     static let missions: [Mission] = Bundle.main.decode("missions.json")
 
     static var previews: some View {
-        AstronautView(astronaut: astronauts[10], mission: missions)
+        AstronautView(astronaut: astronauts["amstrong"]!, mission: missions)
     }
 }
